@@ -83,3 +83,14 @@ for i in l1:
 
 print(4 in l1) #if l1 contains 4
 
+
+#functions
+print(len(l1))
+print(min(l1))
+
+print(sorted(l1,reverse=True)) #! sorted does not change the original list
+l1.sort(reverse=True) #* sorts the l1 list
+print(l1)
+
+print(l1.index(4))
+print(l1.count(3))
