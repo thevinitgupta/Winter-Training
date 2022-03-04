@@ -11,3 +11,17 @@ t4 = (1,) #* this is correct
 t5 = tuple('goa')
 
 print(t2,t2,t3,t4,t5, sep='\n')
+
+#* accessing elements works in same way as lists
+
+print(t1[0])
+print(t3[-1][-1])
+
+#todo TUPLES are IMMUTABLE like STRINGS
+del t3
+for i in t1:
+    print(i)
+print(3 in t1)
+
+print(t1+t2)
+print(t1*3)
