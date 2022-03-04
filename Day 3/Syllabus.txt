@@ -1,0 +1,6 @@
+list
+tuples
+sets
+dictionary
+
+practice problems
