@@ -1,0 +1,19 @@
+1> print substring before '@'
+
+
+2> given sentence => 'I am a boy' (do not use title and capitalize functions)
+
+
+3> given 2D list like -> [1,2,[3,4]] or [[1,2],[3,5]]. Convert it to 1D list (Flattening the list)
+
+
+4> remove duplicates from list
+
+
+
+
+5> given a number from user. Print Yes if there are repeating digits else print No
+
+
+
+6> Given song lyrics, print the words with highest frequency
