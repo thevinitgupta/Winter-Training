@@ -71,3 +71,15 @@ print(l1)
 #* empty the list
 l1.clear()
 print(l1)
+
+
+l1 = [1,2,3,4]
+l2 = [5,6,7,8]
+print(l1+l2) #!merge 2 lists
+print(l1*3) #! merge same list 3 times
+
+for i in l1:
+    print(i)
+
+print(4 in l1) #if l1 contains 4
+
