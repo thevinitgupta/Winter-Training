@@ -23,3 +23,24 @@ d3 = {
 print(d3)
 
 print({"name" : "Vaibhav", "name" : "Vinit"})
+
+#accessing
+#* accessed using keys
+
+print(d3['marks']['Phy']) 
+
+#? adding new key-value pair
+d3['college']='hit'
+print(d3)
+
+
+del d3['college']
+print(d3)
+
+#* loops and membership operations are only Applicable
+
+#* methods applicable -> len, max, min , sorted, keys, values
+print(len(d3))
+
+print(d3.keys())
+print(d3.values())
