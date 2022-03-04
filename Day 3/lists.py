@@ -49,4 +49,25 @@ print(l1)
 l1.insert(1,150)
 print(l1)
 
+l3=[1,2,3,4]
+del l3 #! deletes l3
 
+del l1[::2] #? deletes elements from first to last alternately
+print(l1)
+
+del l1[1::-1]
+print(l1)
+
+#* delete a particular value from the list
+l1.remove('o')
+print(l1)
+
+#? delete elements from end or delete at index given as argument
+l1.pop()
+print(l1)
+l1.pop(1)
+print(l1)
+
+#* empty the list
+l1.clear()
+print(l1)
