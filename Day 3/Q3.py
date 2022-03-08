@@ -1,6 +1,3 @@
-from lib2to3.pytree import type_repr
-from msilib.schema import Class
-
 
 #l1 = [1,2,[3,4]]
 l1 = [[1,2],[3,5]]
