@@ -15,10 +15,17 @@ def isEven(n):
     output : true/false
 
     """
+    if type(n)!= int:
+        return "Number bhej na!"
+    
     if n%2 == 0:
         return True
     else:
         return False
 
-for i in range(1,11):
-    print(i, "is even : ", isEven(i))
+# for i in range(1,11):
+#     print(i, "is even : ", isEven(i))
+
+print(isEven('hi'))
+
+print(isEven.__doc__)
