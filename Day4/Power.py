@@ -10,9 +10,10 @@ print(power())
 
 print(power(b=2,a=3))
 
-
+#! arbitary arguments
 def sum(*num):
     res = 0
+    print(type(num)) #tuple
     for i in num:
         res += i
     return res
