@@ -22,5 +22,31 @@ def isPalin(s):
     else:
         return False
 
-print(isPalin("iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"))
+print(isPalin("madama"))
 
+# 3. Print powers of 2 upto but not including given number
+# bottom up
+def powers(n):
+    getPowers(n,0)
+
+def getPowers(x,i):
+    if 2**i >= x:
+        return
+    print(2**i)
+    getPowers(x,i+1)
+
+#top down
+def powersLess(n):
+    if n==1:
+        print(1)
+        return 1
+    res = powersLess(n//2)
+    print(res*2)
+    return res*2
+
+powersLess(63)
+
+#powers(32)
+# 
+# 4 Fibonacci
+ 
