@@ -5,10 +5,14 @@ class Atm:
     # ? data -> pin, balance
     #* action -> create pin, change pin, deposit, withdraw,check balance
 
+    counter = 1
+
     # ! constructor or INITIALIZER
     def __init__(self) -> None:
         self.__balance = 0
         self.__pin = ''
+        self.cid = Atm.counter
+        Atm.counter += 1
 
     def get_balance(self):
         return self.__balance
