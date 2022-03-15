@@ -3,3 +3,4 @@
 
 #* we use getters and setters to implement encapsulation
 
+# encapsulation is the process of hiding data but also making it available when needed 
