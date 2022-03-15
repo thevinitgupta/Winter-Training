@@ -4,3 +4,5 @@
 #* we use getters and setters to implement encapsulation
 
 # encapsulation is the process of hiding data but also making it available when needed 
+
+# python objects are mutable so changes in objects do not change the object address
