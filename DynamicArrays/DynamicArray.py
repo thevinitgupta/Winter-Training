@@ -71,7 +71,13 @@ class MyList:
 
         else:
             print('IndexError')        
-        
+
+    def remove(self, element):
+        for i in range(self.n):
+            if self.A[i]==element:
+                self.__delitem__(i)
+                return
+        print('ValueError - Not in List')   
         
 
     def __resize(self,new_capacity):
@@ -109,5 +115,7 @@ l.pop()
 print(l.index(1))
 l.insert(2,"Hello")
 print(l)
-del l[3]
+del l[4]
+print(l)
+l.remove('Hello')
 print(l)
